@@ -2,7 +2,7 @@ const {MongoClient} = require('mongodb');
 
 const connection = async ()=>{
     const client = await MongoClient.connect(
-        "mongodb+srv://vinayakdige:vinayakdige123@cluster0.ryq11rv.mongodb.net/?retryWrites=true&w=majority");
+        "mongodb+srv://vinayakdige:vinayakdige@cluster0.smbqghb.mongodb.net/?retryWrites=true&w=majority");
 const db = client.db("blog");
 
 

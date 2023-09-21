@@ -4,7 +4,7 @@ const blogRoute = require("./routes/blogs")
 const app = express();
 const cors = require("cors");
 const {connection } = require("./connection");
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 app.use(cors());
 app.use(express.json());
